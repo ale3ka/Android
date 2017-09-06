@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.alexia.db2.MainActivity">
+    <item
+        android:id="@+id/all_expenses"
+        android:orderInCategory="100"
+        android:title="Show all expenses"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/expenses_by_date"
+        android:orderInCategory="100"
+        android:title="Show expenses by date"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/manual"
+        android:orderInCategory="100"
+        android:title="Instructions"
+        app:showAsAction="never" />
+</menu>
